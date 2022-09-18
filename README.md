@@ -1,8 +1,7 @@
 # Mint
 
 - <b>It is a platform that enables retail investors to trade tech stocks with higher conviction</b>
-- <b>The platform will support other domain stocks and options in the future. </b>
-- <b> A customer can browse photographers and can interact with their work. </b>
+- <b>The platform will support other stocks of other domains and options in the future. </b>
 
 #### Tech Stack
 
