@@ -3,14 +3,11 @@ services:
     container_name: gateway
     build:
       context: .
-      dockerfile: docker/gateway.Dockerfile
+      dockerfile: docker/Gateway.Dockerfile
     ports:
      - "5001:5001"
     environment:
      - IS_DOCKER=true
-    volumes:
-      - ./:/mint/mint-services
-
 networks:
   default:
     name: "mint"
