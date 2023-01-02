@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+  "github.com/prathusingh/mint-services/gateway/internal/server"
+)
 
 func main() {
-	fmt.Println("prathu")
+	server.Server()
 }

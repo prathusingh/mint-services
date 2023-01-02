@@ -1,0 +1,16 @@
+type Account {
+  id: String!
+  name: String!
+}
+
+type Query {
+  account(id: String): Account!
+}
+
+input AccountInput {
+  id: String!
+}
+
+type Mutation {
+  createAccount(account: AccountInput!): Account
+}
