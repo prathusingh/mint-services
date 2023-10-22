@@ -10,7 +10,7 @@ import (
 func main() {
 	flag.Parse()
 
-	cfg, err := config.InitConfig()
+	_, err := config.InitConfig()
 	if err != nil {
 		log.Fatal(err)
 	}

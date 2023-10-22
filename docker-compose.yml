@@ -8,6 +8,15 @@ services:
      - "5001:5001"
     environment:
      - IS_DOCKER=true
+  sourcer:
+    container_name: sourcer
+    build:
+      context: .
+      dockerfile: docker/Sourcer.Dockerfile
+    ports:
+      - "5002:5002"
+    environment:
+      - IS_DOCKER=true
 networks:
   default:
     name: "mint"
